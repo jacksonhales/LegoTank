@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LegoTank.ClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,7 +29,7 @@ namespace LegoTank
             controller = new Controller();
         }
 
-        private async Task btnForward_Click(object sender, RoutedEventArgs e)
+        private async void btnForward_Click(object sender, RoutedEventArgs e)
         {
             await controller.MoveForward();
         }

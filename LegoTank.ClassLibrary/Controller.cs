@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Lego.Ev3.Core;
+using Lego.Ev3.Desktop;
 
 namespace LegoTank.ClassLibrary
 {
@@ -57,7 +58,7 @@ namespace LegoTank.ClassLibrary
         public Controller()
         {
 
-            brick = new Brick(new UsbCommunication());
+            brick = new Brick(new BluetoothCommunication("COM5"));
 
             colourSensor = new Sensor();
             gyroSensor = new Sensor();
@@ -69,7 +70,7 @@ namespace LegoTank.ClassLibrary
 
             try
             {
-                await brick.ConnectAsync();
+                brick.ConnectAsync();
             }
             catch (Exception)
             {
