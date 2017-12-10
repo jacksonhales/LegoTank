@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoTank", "LegoTank\LegoTa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegoTank.ClassLibrary", "LegoTank.ClassLibrary\LegoTank.ClassLibrary.csproj", "{9D4856D8-2C07-467C-8138-2175A5B95A5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.Ev3.Desktop", "Lego.Ev3.Desktop\Lego.Ev3.Desktop.csproj", "{79C444DE-86F1-4AFF-903A-4B6ED31655EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9D4856D8-2C07-467C-8138-2175A5B95A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D4856D8-2C07-467C-8138-2175A5B95A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D4856D8-2C07-467C-8138-2175A5B95A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C444DE-86F1-4AFF-903A-4B6ED31655EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C444DE-86F1-4AFF-903A-4B6ED31655EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C444DE-86F1-4AFF-903A-4B6ED31655EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C444DE-86F1-4AFF-903A-4B6ED31655EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

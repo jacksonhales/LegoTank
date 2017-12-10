@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="btnForward" Grid.Column="1" Grid.Row="0" Click="btnForward_Click" >Forward</Button>
+        <Button x:Name="btnLeft" Grid.Column="0" Grid.Row="1">Left</Button>
+        <Button x:Name="btnRight" Grid.Column="2" Grid.Row="1">Right</Button>
+        <Button x:Name="btnBackward" Grid.Column="1" Grid.Row="3">Backward</Button>
+
     </Grid>
 </Window>

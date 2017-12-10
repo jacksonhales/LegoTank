@@ -20,9 +20,17 @@ namespace LegoTank
     /// </summary>
     public partial class MainWindow : Window
     {
+        Controller controller;
+
         public MainWindow()
         {
             InitializeComponent();
+            controller = new Controller();
+        }
+
+        private async Task btnForward_Click(object sender, RoutedEventArgs e)
+        {
+            await controller.MoveForward();
         }
     }
 }
